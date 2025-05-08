@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f8b400;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .intro, .categorias {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .galeria h3 {
+    text-align: center;
+  }
+  .galeria .imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .galeria img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #f8b400;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+  }
+
+  .imagen-centrada {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .receta {
+    text-align: center;
+  }
+
+  .lista-sin-estilo {
+    list-style: none;     /* Quita los puntos o números */
+    padding-left: 0;      /* Quita la sangría izquierda */
+    margin-left: 0;       /* Asegura que no haya margen a la izquierda */
+  }
+  
